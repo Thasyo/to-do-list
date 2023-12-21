@@ -11,9 +11,10 @@ import { GoPencil } from "react-icons/go";
 interface Props {
   taskList: ITask[]
   handleDelete(id: number): void
+  handleEdit(task: ITask): void
 }
 
-const TaskList = ({taskList, handleDelete}: Props) => {
+const TaskList = ({taskList, handleDelete, handleEdit}: Props) => {
   return (
     <>
     
@@ -25,7 +26,7 @@ const TaskList = ({taskList, handleDelete}: Props) => {
               <p>Dificuldade: {task.difficulty}</p>
             </div>
             <div className={styles.actions}>
-              <GoPencil className='icon'/>
+              <GoPencil className='icon' onClick={() => handleEdit(task)}/>
               <IoTrashOutline className='icon' onClick={() => handleDelete(task.id)}/>
             </div>
           </div>
