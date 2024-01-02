@@ -1,46 +1,45 @@
-# Getting Started with Create React App
+# TO DO LIST
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🔗[Acesse Aqui o Projeto!](https://thasyo.github.io/to-do-list/)
 
-## Available Scripts
+## Preview do Projeto
 
-In the project directory, you can run:
+![preview](./public/to-do-list.gif)
 
-### `npm start`
+### 📃 Descrição 📃
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Objetivo
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+    - O objetivo deste projeto é auxiliar o usuário na organização de suas tarefas através de uma simples lista de tarefas.
 
-### `npm test`
+- Propósito
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    - O propósito deste projeto foi exclusivamente para desenvolver os meus estudos, praticando e concretizando os meus conhecimentos em React e Typescript.
 
-### `npm run build`
+### 📉 Funcionalidades 📈
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Neste projeto, estão incluídos os fundamentos do CRUD (Create, Read, Update and Delete).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    - Criação de tarefas
+    - Leitura das tarefas criadas
+    - Função de atualização das tarefas criadas
+    - Função de Exclusão das Tarefas criadas
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 🛠️ Tecnologias 🛠️
 
-### `npm run eject`
+- REACT
+- TYPESCRIPT
+- CSS
+- GIT
+- GITHUB
+- VSCODE
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### 👨‍💻 Status do Projeto 👨‍💻
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Finalizado com Sucesso! ✔️
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## 🛑 Não pare por aqui! 🛑
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Gostou do meu projeto? Então me acompanhe no LinkedIn, para ficar por dentro das minhas últimas aplicações! 😉
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [Linkedin](https://www.linkedin.com/in/thasyo-peres-63aa27235/)
