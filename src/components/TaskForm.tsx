@@ -11,9 +11,10 @@ interface Props {
     taskList: ITask[]
     setTaskList?: React.Dispatch<React.SetStateAction<ITask[]>> //esta tipagem diz que estou recebendo o set de um useState.
     task?: ITask | null
+    handleUpdate?(id: number, title: string, difficulty: number): void
   }
 
-const TaskForm = ({btnText, taskList, setTaskList, task}: Props) => {
+const TaskForm = ({btnText, taskList, setTaskList, task, handleUpdate}: Props) => {
 
   const [id, setId] = useState<number>(0)
   const [title, setTitle] = useState<string>("")
@@ -30,16 +31,18 @@ const TaskForm = ({btnText, taskList, setTaskList, task}: Props) => {
   const addTaskHandler = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault()
 
-    //add tasks
-    const id = Math.floor(Math.random() * 1000)
-    const newTask: ITask = {id, title, difficulty}
-    setTaskList!([...taskList, newTask])
+    if(handleUpdate){
+      handleUpdate(id, title, difficulty)
+    }else{
+      //add tasks
+      const id = Math.floor(Math.random() * 1000)
+      const newTask: ITask = {id, title, difficulty}
+      setTaskList!([...taskList, newTask])
 
-    //form values
-    setTitle("")
-    setDifficulty(0)
-
-    console.log(taskList)
+      //form values
+      setTitle("")
+      setDifficulty(0)
+    }
   }
 
   const handleChange = (e: ChangeEvent<HTMLInputElement>) => {
