@@ -1,7 +1,5 @@
 # TO DO LIST
 
-## 🔗[Acesse Aqui o Projeto!](https://thasyo.github.io/to-do-list/)
-
 ## Preview do Projeto
 
 ![preview](./public/to-do-list.gif)
